@@ -14,6 +14,12 @@ fi
 # Install PHP dependencies
 composer install --no-dev --optimize-autoloader
 
+# Install Node.js dependencies
+npm install
+
+# Build the Vue frontend
+npm run build
+
 # Set proper permissions (optional)
 chmod -R 775 storage bootstrap/cache
 
