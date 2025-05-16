@@ -21,7 +21,7 @@ A modern Point of Sale (POS) system built with **Laravel 10 (backend)** and **Vu
 - **Backend:** Laravel 10
 - **Frontend:** Vue 3 (Composition API)
 - **Styling:** Tailwind CSS
-- **Database:** MySQL (external - freesqldatabase.com)
+- **Database:** MySQL
 - **Others:** Axios, Laravel Sanctum (authentication)
 
 
@@ -74,7 +74,7 @@ APP_URL=http://localhost
 LOG_CHANNEL=stack
 
 DB_CONNECTION=mysql
-DB_HOST=sql.yourhost.com
+DB_HOST=your_host
 DB_PORT=3306
 DB_DATABASE=your_db_name
 DB_USERNAME=your_username
@@ -93,13 +93,6 @@ php artisan serve
 ```
 The app should now be running at http://localhost:8000
 
-
-## 🧪 Demo Login
-
-Use the following credentials to explore the system:
-
-- **Username:** admin@email.com  
-- **Password:** adminlogin
 
 ## License
 
